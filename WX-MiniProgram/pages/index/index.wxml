@@ -1,0 +1,20 @@
+
+
+<view class="chart-box">
+	<view class="panel">
+		<image style="width: 686rpx; height: 416rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"   src="/images/grid.jpg" />
+		<view class="chart">
+			<ec-canvas id="mychart-dom-bar4" canvas-id="mychart-bar4" ec="{{ ec4 }}"></ec-canvas>
+		</view>
+		<!-- <view class="panel-footer"></view> -->
+		<image src="/images/heart.jpg" style="width: 272rpx; height: 246rpx; display: block; box-sizing: border-box; left: 208rpx; top: 564rpx; position: absolute"></image>
+	</view>
+	<text>{{second}}秒</text>
+	<text class="IfHidetext" style="display:{{IfHide}}; position: relative; left: 70rpx; top: -348rpx">将左右拇指贴在金属片上</text>
+</view>
+<view class="container">
+	<!-- <input class="input" disabled value="{{receiveText}}" maxlength="20"/> -->
+	<button type="primary" class="button" bindtap="ReturnToConnection" style="position: absolute; left: 186rpx; top: 1030rpx">返回连接界面</button>
+
+	
+</view>

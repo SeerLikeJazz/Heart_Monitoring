@@ -1,0 +1,12 @@
+<view style="position: relative; width: 750rpx; background: #d3d3d3; height: 741rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+    <text style="position: relative; left: 97rpx; top: 68rpx">心率：</text>
+
+    <text style="position: relative; left: -17rpx; top: 195rpx">PR期间：</text>
+
+    <text style="position: relative; left: -177rpx; top: 319rpx">QT期间：</text>
+
+    <text style="position: relative; left: -125rpx; top: 507rpx">Hello{{name }}</text>
+
+    <button style="position: relative; left: 50rpx; top: 507rpx" bindtap="clickme">点我</button>
+</view>
+<button style="position: relative; left: 0rpx; top: 282rpx" type="primary" bindtap="ReCheck">重新测量</button>

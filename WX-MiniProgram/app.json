@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/search/search",
+        "pages/index/index",
+        "pages/AI-report/AIreport"   
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "HeartMonitor",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
